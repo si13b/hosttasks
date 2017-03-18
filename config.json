@@ -1,0 +1,12 @@
+{
+	"blacklist": [
+		"netflix.com",
+		"www.netflix.com",
+		"youtube.com",
+		"www.youtube.com"
+	],
+	"tasks": [
+		"Learn guitar",
+		"Design something cool"
+	]
+}

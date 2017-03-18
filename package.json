@@ -1,0 +1,29 @@
+{
+  "name": "hosttasks",
+  "version": "0.1.0",
+  "description": "Block sites in host file until you complete certain tasks",
+  "main": "hosttasks.js",
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/si13b/hosttasks.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "productivity",
+    "tasks",
+    "site",
+    "block"
+  ],
+  "author": "Simon Bracegirdle",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "commander": "~2.9",
+    "hostile": "~1.3"
+  }
+}
