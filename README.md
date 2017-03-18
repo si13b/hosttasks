@@ -4,13 +4,17 @@ Block sites by editing your system's host file until you complete a set of daily
 
 This is not designed to be a bullet proof blocking mechanism, but instead a deterrent to help you stay focused.
 
+## Installation
+
+	npm install -g hosttasks
+
 ## Configuring
 
-The configuration for this tool is a simple json file whose location can be passed as the 2nd argument in both `reset` and `done` modes.
+The configuration for this tool is a simple `config.json` file whose location can be passed with the `config` option in both `reset` and `done` modes.
 
 The `blacklist` property contains a list of sites to block until tasks are completed. The `tasks` property contains a list of tasks that require completion before unblocking.
 
-Example config
+Example config:
 
 ```
 {
@@ -26,9 +30,11 @@ Example config
 }
 ```
 
-The location of the config file is the second argument on both commands.
+The location of the config file can be specified with the `config` option.
 
 ## Usage
+
+NOTE: You must run hosttasks with sudo/Administrator privileges, since the hosts files on most systems is restricted. This means that you trust this program to not do *bad things* to your system. As per the LICENSE file, no warranty is provided. I recommend that you read the source code as a precaution.
 
 ### Resetting
 
